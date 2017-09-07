@@ -9,12 +9,16 @@
       
 2) Run getCommodityPrice.py start_date(in the format 2017-05-10) end_date(in the format 2017-05-22) commodity
     ```sh
-    $ python getCommodityPrice.py 2017-08-25 2017-09-06 silver
+    $ ./getCommodityPrice.py 2017-08-25 2017-09-06 silver
     silver 17.56 0.1
      
-    $ python getCommodityPrice.py 2017-08-25 2017-09-06 gold
+    $ ./getCommodityPrice.py 2017-08-25 2017-09-06 gold
     gold 1326.12 200.91
     ```
       
 
-##### Note: There is no data for August 26,2017 in both websites
+##### Note: 
+    1. There is no data for August 26,2017 in both websites
+    2. Assuming python is present in /usr/bin/python
+    3. To run scrapingGoldAndSliver you need pandas, lxml.html
+            
